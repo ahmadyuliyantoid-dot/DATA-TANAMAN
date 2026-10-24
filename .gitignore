@@ -1,0 +1,26 @@
+﻿.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+tanaman.db
+*.db
+*.sqlite
+*.sqlite3
+app_backup_*.py
+ARSIP_CADANGAN/
+*.log
+*.tmp
+*.bak
+*.old
+uploads/
+
+# File cadangan dan pemulihan CSS
+*.backup_*
+*.bak_*
+*.sebelum_pemulihan
+app_backup*.css
+app_cadangan*.css
+
+# Folder CSS duplikat di dalam static
+/static/static/
